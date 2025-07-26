@@ -16,7 +16,7 @@ public class floor {
           return mid;
         }
     }
-    return si;
+    return ei;
   }
 
   public static void main(String[] args) {
