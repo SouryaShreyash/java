@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class sort {
+public class quicksort {
     static int partition(int[] arr, int low, int high) {
 
         int pivot = arr[high];
@@ -14,8 +14,8 @@ public class sort {
             }
         }
 
-        swap(arr, i, high);
-        return i ;
+        swap(arr, i + 1, high);
+        return i + 1;
     }
 
     static void swap(int[] arr, int i, int j) {
