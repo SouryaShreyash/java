@@ -6,10 +6,10 @@ public class floor {
     int ei = arr.length - 1;
     while (si < ei) {
        int mid=si+(ei-si)/2;
-        if(mid<target){
+        if(arr[mid]<target){
           si=mid+1;
         }
-        else if(mid>target){
+        else if(arr[mid]>target){
           ei=mid-1;
         }
         else{
