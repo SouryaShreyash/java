@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class disappearednos {
+public class duplicatenos {
   public static List<Integer> findDuplicates(int[] nums) {
       int i=0;
       while(i<nums.length){

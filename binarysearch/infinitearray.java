@@ -1,4 +1,3 @@
-package binarysearch;
 
 public class infinitearray {
   public static int ans(int[] arr, int target) {
@@ -7,10 +6,11 @@ public class infinitearray {
     if (target > arr[end]) {
       int newstart = end + 1;
       end = end + (end - start + 1) * 2;
-      start=newstart;
+      start = newstart;
     }
-     return binarysearch(arr,target,start,end);
+    return binarysearch(arr, target, start, end);
   }
+
   public static int binarysearch(int[] arr, int target, int start, int end) {
     while (start <= end) {
       int mid = start + (end - start) / 2;
@@ -24,9 +24,10 @@ public class infinitearray {
     }
     return -1;
   }
-public static void main(String[] args) {
-  int[] arr={3,5,7,9,10,90,100,130,160,170};
-  int target=10;
-  System.out.println(ans(arr,target));
-}
+
+  public static void main(String[] args) {
+    int[] arr = { 3, 5, 7, 9, 10, 90, 100, 130, 160, 170 };
+    int target = 10;
+    System.out.println(ans(arr, target));
+  }
 }

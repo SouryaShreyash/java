@@ -1,4 +1,4 @@
-package binarysearch;
+
 import java.util.*;
 public class floor {
    public static int ceiling(int[] arr, int target) {

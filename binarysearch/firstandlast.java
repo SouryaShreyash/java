@@ -1,8 +1,8 @@
-package binarysearch;
+
 
 import java.util.Arrays;
 //find the fisrt and last index of an element in an sorted array
-public class question4 {
+public class firstandlast {
   public static int[] searchRange(int[] nums, int target) {
     int ans[] = new int[2];
     ans[0] = search(nums, target, true);

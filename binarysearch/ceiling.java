@@ -3,7 +3,7 @@
 import java.util.*;
 
 //ceiling of a number in a sorted array
-public class question1 {
+public class ceiling {
   public static int ceiling(int[] arr, int target) {
     int si = 0;
     int ei = arr.length - 1;
