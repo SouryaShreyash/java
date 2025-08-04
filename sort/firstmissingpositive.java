@@ -1,3 +1,5 @@
+package sort;
+
 //https://leetcode.com/problems/first-missing-positive/
 public class firstmissingpositive {
    public static int firstMissingPositive(int[] nums) {
