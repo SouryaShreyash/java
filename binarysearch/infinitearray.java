@@ -1,3 +1,4 @@
+package binarysearch;
 
 public class infinitearray {
   public static int ans(int[] arr, int target) {

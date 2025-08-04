@@ -1,4 +1,4 @@
-
+package sort;
 
 import java.util.Arrays;
 //find the fisrt and last index of an element in an sorted array
