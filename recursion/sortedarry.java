@@ -1,3 +1,4 @@
+package recursion;
 
 public class sortedarry {
   public static boolean isSorted(int arr[],int index){

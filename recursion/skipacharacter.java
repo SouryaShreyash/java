@@ -1,7 +1,5 @@
-import java.util.*;
-
-public static void main(String[] args) {
-    String ch="bccacadfc";
+ void main(String[] args) {
+    String ch="abracadabra";
     String ans=skip(ch);
     System.out.println(ans);
 }

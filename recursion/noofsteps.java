@@ -1,3 +1,4 @@
+package recursion;
 
 public class noofsteps {
   public static int numberOfSteps(int num) {
@@ -14,7 +15,6 @@ public class noofsteps {
     }
     public static void main(String[] args) {
       int n=14;
-      int c=0;
       int ans=numberOfSteps(n);
       System.out.println(ans);
     }

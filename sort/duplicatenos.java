@@ -1,3 +1,5 @@
+package sort;
+
 import java.util.*;
 
 public class duplicatenos {
@@ -6,6 +8,7 @@ public class duplicatenos {
       while(i<nums.length){
         int correct=nums[i]-1;
         if(nums[i]!=nums[correct]){
+
             swap(nums,i,correct);
         }
         else{
@@ -26,7 +29,7 @@ public class duplicatenos {
     arr[second] = temp;
   }
   public static void main(String[] args) {
-    int arr[]={4,3,2,7,8,2,3,1};
+    int[] arr ={4,3,2,7,8,2,3,1};
    List<Integer> ans=findDuplicates(arr);
    System.out.println(ans);
   }
