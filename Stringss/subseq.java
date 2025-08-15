@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class subseq{
     static void main() {
-        subseqASCII("","abc");
+        subseq("","abc");
 //      ArrayList<String> ans=subSeqRet("","abc");
 //      System.out.println(ans);
     }

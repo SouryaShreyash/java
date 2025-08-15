@@ -1,7 +1,7 @@
 package recursion;
 
 public class Permutations{
-    public static void main() {
+    public static void main(String[] args) {
          permutation("","abc");
     }
     public static void permutation(String p, String up){
