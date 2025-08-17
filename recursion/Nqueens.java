@@ -44,7 +44,7 @@ public class Nqueens {
         return true;
     }
 
-    private static void display(boolean[][] board){
+    public static void display(boolean[][] board){
         for(boolean[] row:board){
             for(boolean element:row){
                 if(element){
