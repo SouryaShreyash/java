@@ -1,3 +1,5 @@
+package sort;
+
 import java.util.*;
 //https://leetcode.com/problems/missing-number/description/
 public class findthemissingno {

@@ -1,3 +1,5 @@
+package recursion;
+
 import java.util.*;
 public class sumofdigits {
   public static void main(String[] args) {

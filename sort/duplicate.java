@@ -1,4 +1,4 @@
-//https://leetcode.com/problems/find-the-duplicate-number/
+package sort;//https://leetcode.com/problems/find-the-duplicate-number/
 import java.util.*;
 public class duplicate {
   public static int findDuplicate(int[] nums) {

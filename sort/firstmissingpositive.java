@@ -25,7 +25,7 @@ public class firstmissingpositive {
     nums[second] = temp;
   }
   public static void main(String[] args) {
-    int arr[]={3,4,-1,1};
+    int[] arr ={3,4,-1,1};
     int ans=firstMissingPositive(arr);
     System.out.println(ans);
   }
